@@ -16,6 +16,19 @@ Install GPG from https://www.gnupg.org/download/
 
 Send the email to operations@bgch.co.uk who will upload it for you.
 
+# Getting this repo locally
+
+By default, this will put the repo in your home directory. Feel free
+to locate it elsewhere, but you will have to work out the value of 
+```install_location``` yourself.
+
+```
+cd ~
+git clone git@github.com:ConnectedHomes/public_gpg_keys.git
+```
+
+This will give you an install location of ```~/public_gpg_keys/```
+
 ## Trusting other people's keys
 
 ```gpg --import $install_location/keys/*```
