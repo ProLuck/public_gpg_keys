@@ -4,7 +4,13 @@ Please take careful note to ONLY commit public gpg keys
 
 # Setup
 
-(put something about importing keys here)
+## Creating your own key
+
+```gpg --gen-key```
+
+## Trusting other people's keys
+
+```gpg --import $install_location/keys/*```
 
 # Encryption
 
