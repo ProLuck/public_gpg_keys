@@ -6,7 +6,7 @@ Please take careful note to ONLY commit public gpg keys
 
 ## Install GPG
 
-Install GPG
+Install GPG from https://www.gnupg.org/download/
 
 ## Creating your own key
 
