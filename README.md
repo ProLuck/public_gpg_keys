@@ -1,1 +1,3 @@
-# public_gpg_keys
+# Public GPG Keys
+
+Please take careful note to ONLY commit public gpg keys
