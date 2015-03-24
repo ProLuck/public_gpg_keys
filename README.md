@@ -14,7 +14,7 @@ Install GPG from https://www.gnupg.org/download/
 
 ```gpg --armor --export <your email here>``` and copy the output into an email.
 
-Send the email to operations@bgch.co.uk who will upload it for you.
+Send the email to operations@bgch.co.uk with a subject of 'Request for Addition of Public GPG key' and Ops will add it to this repo for other people to access.
 
 # Getting this repo locally
 
