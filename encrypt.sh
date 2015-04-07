@@ -18,7 +18,7 @@ if [[ -z $recipients ]]; then
 fi
 
 if [[ -z $outputfile ]]; then
-   outputfile=$inputfile.gpg
+   outputfile="$inputfile.gpg"
 fi
 
 if [[ -f $install_location/teams/$recipients ]]; then
@@ -27,4 +27,4 @@ else
    recipients="-r $recipients"
 fi
 
-gpg --encrypt $recipients $inputfile > $outputfile 
+gpg --encrypt $recipients "$inputfile" > "$outputfile" 
