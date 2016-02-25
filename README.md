@@ -12,9 +12,11 @@ Install GPG from https://www.gnupg.org/download/
 
 ```gpg --gen-key``` and follow the simple instructions
 
-```gpg --armor --export <your email here>``` and copy the output into an email.
+```gpg --armor --export <your email here>``` 
 
-Send the email to operations@bgch.co.uk with a subject of 'Request for Addition of Public GPG key' and Ops will add it to this repo for other people to access.
+You can then either 
+ * copy the output into an email and send the email to operations@bgch.co.uk with a subject of 'Request for Addition of Public GPG key' and Ops will add it to this repo for other people to access.
+ * create a pull request for this repo and poke an ops representative to pull it.
 
 # Getting this repo locally
 
