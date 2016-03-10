@@ -2,6 +2,10 @@
 
 Please take careful note to ONLY commit public gpg keys
 
+# References
+
+https://confluence.bgchtest.info/display/BOPS/Sensitive+data+transfer
+
 # Setup
 
 ## Install GPG
